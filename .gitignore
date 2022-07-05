@@ -1,0 +1,5 @@
+*.txt
+*.json
+*.pt
+/Data/
+/WorkSpace/NicoIer/test/
