@@ -56,7 +56,7 @@ class Call2018Dataset(Dataset):
 
     def __getitem__(self, item):
         fact, target = self._getitem_(item)
-        # ToDo 对fact进行分词 然后将 词列表 转换成 词索引列表
+        # _ToDo 对fact进行分词 然后将 词列表 转换成 词索引列表
 
         if self.field == 'accusation':
             # (对accusation List进行Tensor化) 简化处理下 对accusation List的元素只有1个
